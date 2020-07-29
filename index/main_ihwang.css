@@ -60,3 +60,9 @@ p.main {
 	margin: 5px 0px 15px 0;
     <!--margin: 5px 160px 15px 0;-->
 	}
+table, th, td {
+  /*border: 1px solid black;*/
+  border-collapse: collapse;
+  text-align: center;
+  vertical-align: center;
+}
