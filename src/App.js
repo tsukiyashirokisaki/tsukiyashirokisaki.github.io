@@ -14,9 +14,9 @@ function App() {
         {arr.map((ele)=><Button val={ele} key={ele} mode={mode} onClick={()=>{setMode(ele)}} />)}
         <div style={{alignItems:"center",justifyContent:"center",display:"flex"}}>
         {info.map(data=>
-        <a key={data[1]} href={data[1]}>
-        <img className='icon' src={data[0]} key={data[1]}/>
-        </a>
+          <a key={data[1]} href={data[1]}>
+            <img className='icon' src={data[0]} key={data[1]}/>
+          </a>
         )}
         </div>
         

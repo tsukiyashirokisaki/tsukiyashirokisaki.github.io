@@ -1,5 +1,5 @@
 import React from "react";
-import ntu_logo from "./asset/ntu_logo.png"
+import Education from "./component/Education";
 import Experience from "./component/Expereince";
 import {education,experience,intro} from "./data.js"
 function MainTheme() {
@@ -7,11 +7,7 @@ function MainTheme() {
         <div id="Education" className="section">
             <div className="title">Education</div>
             {education.map(
-                ele => <div className="innerText" key={ele[0]} style={{alignItems:'center',display:'flex',marginBottom:'10px'}}>
-                    <img src={ntu_logo} style={{height:'60px',marginRight:'20px'}}/>
-                    <div>{`${ele[0]}: ${ele[1]}`}</div>
-                    <div style={{marginLeft:'auto'}}>{`${ele[2]}`}</div>
-                    </div>)
+                data => <Education name={data[0]} major={data[1]} time={data[2]} key={data[0]}></Education>)
             }
         </div>
         <div id="Experience" className="section">
@@ -20,7 +16,7 @@ function MainTheme() {
         </div>
         <div id="Introduction" className="section">
             <div className="title">Introduction</div>
-            <div className="innerText">{intro}</div>
+            <div className="innerText" style={{padding:"10px"}}>{intro}</div>
         </div>
     </div>
 }
