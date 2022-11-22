@@ -1,6 +1,10 @@
 import yahoo_logo from "./asset/yahoo_logo.png"
 import qct_logo from "./asset/qct_logo.png"
 import retailingdata_logo from "./asset/retailingdata_logo.webp"
+import linkedin_logo from "./asset/linkedin_icon.webp"
+import github_logo from "./asset/github_icon.png"
+import gmail_logo from "./asset/gmail_icon.png"
+import resume_logo from "./asset/resume_icon.jpg"
 const experience = [
     {src:yahoo_logo,title:"Search & Ads Intern",description:"Build up a hot spot extraction system."},
     {src:qct_logo,title:"5G Jump Intern",description:"Construct an AI platform."},
@@ -11,4 +15,11 @@ const education = [
     ["Master","Electrical Engineering, National Taiwan University","2021~2023"],
     ["Bachelor","Materials Science and Engineering, National Taiwan University","2017~2021"]
 ]
-export {experience,intro,education};
+const info = [
+    [linkedin_logo,"https://www.linkedin.com/in/po-hsun-stanley-lin-02a312158/"],
+    [github_logo,"https://github.com/tsukiyashirokisaki"],
+    [gmail_logo,"mailto:bokuwa08201230@gmail.com"],
+    [resume_logo,"https://drive.google.com/file/d/1G5EHOguiNHmHHopzM9bPGwq5Ztgcsvlr/view?usp=share_link"]
+    
+]
+export {experience,intro,education,info};
