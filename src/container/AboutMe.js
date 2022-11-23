@@ -1,8 +1,8 @@
 import React from "react";
-import Education from "./component/Education";
-import Experience from "./component/Expereince";
-import {education,experience,intro} from "./data.js"
-function MainTheme() {
+import Education from "../component/Education";
+import Experience from "../component/Expereince";
+import {education,experience,intro} from "../data.js"
+function AboutMe() {
     return <div style={{ display: 'block' }} className="content">
         <div id="Education" className="section">
             <div className="title">Education</div>
@@ -20,4 +20,4 @@ function MainTheme() {
         </div>
     </div>
 }
-export default MainTheme;
+export default AboutMe;

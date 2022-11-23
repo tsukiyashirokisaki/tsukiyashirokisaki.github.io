@@ -1,11 +1,9 @@
 import React from 'react';
 function Button(props) {
     return (
-        <a href={`#${props.val}`} style={{ textDecoration: 'none' }}>
-            <button className="main_theme_button" style={{ cursor: "pointer" }}>
+            <button className={`button ${props.className}`} style={{ cursor: "pointer" }} onClick={props.onClick}>
                 {props.val}
             </button>
-        </a>
     );
 }
 
