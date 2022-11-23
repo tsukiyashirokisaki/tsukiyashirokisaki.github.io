@@ -12,7 +12,7 @@ function MainTheme() {
         </div>
         <div id="Experience" className="section">
             <div className="title">Experience</div>
-            {experience.map(data=><Experience src={data.src} key={data.title} title={data.title} description={data.description}/>)}
+            {experience.map(data=><Experience src={data.src} key={data.title} title={data.title} description={data.description} time={data.time}/>)}
         </div>
         <div id="Introduction" className="section">
             <div className="title">Introduction</div>
