@@ -20,6 +20,6 @@ const info = [
     [github_logo, "https://github.com/tsukiyashirokisaki"],
     [gmail_logo, "mailto:bokuwa08201230@gmail.com"],
     [resume_logo, "https://drive.google.com/file/d/1G5EHOguiNHmHHopzM9bPGwq5Ztgcsvlr/view?usp=share_link"]
-
 ]
-export { experience, intro, education, info };
+
+export { experience, intro, education, info};
