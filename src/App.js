@@ -7,14 +7,13 @@ import MainTheme from './container/MainTheme';
 
 function App() {
   const quick_link = ['Education', 'Experience', 'Introduction'];
-  const pages = ["Articles", "Technologies", "Travels", "Games", "About Me"];
-  const [curPage,setCurPage] = useState("About Me");
+  const [curPage] = useState("About Me");
   return (
     <div style={{ display: 'block' }}>
       <div className="App" style={{ padding: '50px' }}>
-        <div style={{marginBottom:'20px',backgroundColor:'#333333'}}>
+        {/* <div style={{marginBottom:'20px',backgroundColor:'#333333'}}>
           {pages.map(data => <Button key={data} val={data} className={(curPage===data)?"button_clicked":""} onClick={()=>setCurPage(data)}></Button>)}
-        </div>
+        </div> */}
         <div style={{ display: 'flex' }}>
           <div >
             <Person />
