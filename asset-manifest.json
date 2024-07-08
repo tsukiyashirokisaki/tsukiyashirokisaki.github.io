@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.98c6e7b8.css",
+    "main.js": "/static/js/main.c5e8330b.js",
+    "static/js/787.69c1b68f.chunk.js": "/static/js/787.69c1b68f.chunk.js",
+    "static/media/yahoo_logo.png": "/static/media/yahoo_logo.bbb9e2e22c2bad8ec79a.png",
+    "static/media/ntu_logo.png": "/static/media/ntu_logo.1532bc893c949cefd27a.png",
+    "static/media/resume_icon.jpg": "/static/media/resume_icon.01bc09694da054cb61b6.jpg",
+    "static/media/avatars.png": "/static/media/avatars.241eb7dafe703dc2270a.png",
+    "static/media/qct_logo.png": "/static/media/qct_logo.5557c7dd39d208d55851.png",
+    "static/media/retailingdata_logo.webp": "/static/media/retailingdata_logo.2ae32031df0683d4d850.webp",
+    "static/media/linkedin_icon.webp": "/static/media/linkedin_icon.d65c817fb6cf15895db0.webp",
+    "index.html": "/index.html",
+    "main.98c6e7b8.css.map": "/static/css/main.98c6e7b8.css.map",
+    "main.c5e8330b.js.map": "/static/js/main.c5e8330b.js.map",
+    "787.69c1b68f.chunk.js.map": "/static/js/787.69c1b68f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98c6e7b8.css",
+    "static/js/main.c5e8330b.js"
+  ]
+}
