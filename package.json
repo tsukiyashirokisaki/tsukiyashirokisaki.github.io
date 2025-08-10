@@ -1,65 +1,24 @@
 {
-  "name": "mypage",
-  "homepage": "https://tsukiyashirokisaki.github.io",
-  "version": "0.1.0",
+  "name": "personal-website",
   "private": true,
-  "dependencies": {
-    "-": "^0.0.1",
-    "@testing-library/jest-dom": "^5.16.2",
-    "@testing-library/react": "^12.1.2",
-    "@testing-library/user-event": "^13.5.0",
-    "cors": "^2.8.5",
-    "firebase": "^9.14.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-markdown": "^8.0.3",
-    "react-scripts": "5.0.0",
-    "react-syntax-highlighter": "^15.5.0",
-    "rehype-highlight": "^6.0.0",
-    "rehype-raw": "^6.1.1",
-    "remark-gfm": "^3.0.1",
-    "save-dev": "^0.0.1-security",
-    "web-vitals": "^2.1.4"
-  },
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": " gh-pages-clean && gh-pages -d build"
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "path": "^0.12.7",
+    "vue": "^3.5.17"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "pre-commit": [
-    "lint"
-  ],
   "devDependencies": {
-    "eslint": "^8.2.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-react": "^7.31.11",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "gh-pages": "^3.2.3",
-    "husky": "^4.3.8",
-    "lint-staged": "^13.0.3",
-    "pre-commit": "^1.2.2"
+    "@types/node": "^24.1.0",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@vue/tsconfig": "^0.7.0",
+    "prettier": "3.6.2",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.4",
+    "vue-tsc": "^2.2.12"
   }
 }
